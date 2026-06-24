@@ -1,8 +1,9 @@
+
 clc; clear
 %% 参数设置
-numberofINP = 1;
+numberofINP = 500;
 maxlineINP = 100000; % 数值要大于最大行数
-materialline = [8704 16991 7]; % 第一个材料名所在行，最后一个材料名所在行, 每种材料占行数
+materialline = [11245 19974 7]; % 第一个材料名所在行，最后一个材料名所在行, 每种材料占行数
 
 %% 载入数据
 inpfile = importdata('Job-0.inp', ',', maxlineINP);

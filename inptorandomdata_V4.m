@@ -14,11 +14,11 @@ mu=[10 ; % E
 
 
 cov=[0.15 0.02 0.15 0.15 ]';%均值及变异系数
-dh=[20  ]; dv=[4 ]; %自相关距离
+dh=[15.6  ]; dv=[0.603 ]; %自相关距离
 Nsim=500;%随机场数量
 ACF=3;%自相关函数类型
 %% 节点集合和部件名
-Jobname='Job-1.inp';%确定性模型inp
+Jobname='Job-0.inp';%确定性模型inp
 part='soil';%需要赋值随机场的part
 Set=[];%需要赋值随机场的Set，属于part中一部分，可以是全部,如果是全部,Set=[]
 numofele_type=2;% part内含有几种类型单元
